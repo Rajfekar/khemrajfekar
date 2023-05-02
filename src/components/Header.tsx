@@ -11,14 +11,14 @@ export default function Header({}: Props) {
   return (
     <div>
       <motion.div
-        className="text-4xl text-white text-center"
+        className="text-2xl text-yellow-300"
         initial={{
-          y: -100,
+          x: -500,
           opacity: 0,
           scale: 0.5,
         }}
         animate={{
-          y: 0,
+          x: 0,
           opacity: 1,
           scale: 1,
         }}
